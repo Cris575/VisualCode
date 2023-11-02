@@ -1,0 +1,43 @@
+{
+
+    "idUsuario": "objectid()",
+    "nome": "string",
+    "telefono": "string",
+    "estatus": "string",
+    "tipo": "string",
+    "domicilio": "string",
+    "password": "string",
+    "email": "string",
+    "idProductos": "int",
+
+    "tarjetas": {
+        "idtarjeta": "int",
+        "noTargeta": "string",
+        "emisor": "string",
+        "tipo": "string",
+        "cvv": "string",
+        "fechaVencimiento": "string",
+        "status": "string"
+    },
+    "pedidos": {
+
+        "idPedidos": "int",
+        "fechcRegistro": "date",
+        "fechaCierre": "date",
+        "costosEnvios": "float",
+        "subtotal": "float",
+        "total": "float",
+        "estatus": "string",
+        "idDetalles": "int",
+        "idEnvios": "int",
+
+        "envios": {
+            "idEnvios": "int",
+            "fechaSalida": "date",
+            "fechaEntPlan": "date",
+            "fechaEntReal": "date",
+            "noGuia": "string",
+            "estatus": "string"
+        }
+    }
+}

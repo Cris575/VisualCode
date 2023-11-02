@@ -1,0 +1,35 @@
+{
+    "idCategorias":"string",
+    "nombre": "string",
+    "estatus": "string",
+
+    "productos": {
+
+        "idProductos": "int",
+        "nombre": "string",
+        "descripcion": "string",
+        "precio": "string",
+        "existencia": "string",
+        "marca": "string",
+        "color": "string",
+        "costoEnvio": "decimal",
+        "estatus": "string",
+
+        "destalles": {
+            "cantidad": "string",
+            "precio": "string",
+            "subTotal": "string",
+            "subtotalEnvio": "string",
+            "costoEnvio": "decimal",
+
+            "inconformidades": {
+                "idInconformidades": "string",
+                "fechaRegistro": "date",
+                "fechaResolucion": "date",
+                "motivo": "string",
+                "respuesta": "string",
+                "estatus": "string"
+            }
+        }
+    }
+}

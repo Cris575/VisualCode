@@ -1,0 +1,10 @@
+{
+
+    "idPaqueteria": "int",
+    "nombre": "string",
+    "paginaWeb": "string",
+    "telefono": "string",
+    "estatus": "string",
+
+    "idEnvios": "ref(pedidos.enviso._idEnvios)"   
+}
